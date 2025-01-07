@@ -10,7 +10,7 @@ namespace HotelReservationClient
             var reservation = new Reservation() {
                 GuestFirstName = "Bobby",
                 GuestLastName = "Tables",
-                guestEmail = "wearehiring@teachtown.com",
+                GuestEmail = "wearehiring@teachtown.com",
                 CheckInDate = new DateTime(2022, 1, 1),
                 CheckOutDate = new DateTime(2022, 1, 8),
                 NumberOfAdditionalGuests = 1,

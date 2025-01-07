@@ -4,7 +4,7 @@
     {
         public string GuestFirstName { get; set; }
         public string GuestLastName { get; set; }        
-        public string guestEmail { get; set; }
+        public string GuestEmail { get; set; }
         public DateTime CheckInDate { get; set; }
         public DateTime CheckOutDate { get; set; }
         public int NumberOfAdditionalGuests { get; set; }
