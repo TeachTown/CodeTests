@@ -10,3 +10,6 @@ The library is used by a client application to create a hotel reservation.
 ## Restrictions
 1. DO NOT modify the TeachTown.Refactoring.CSharp.HotelReservationClient project. All refactorings to the HotelReservationLibrary project should be backwards compatible with the client.
 2. DO NOT remove the static modifier from the ReservationDb class.  
+
+## Refactorings to ignore
+1.  Do not bother with implementing actual data persistence.  There is no need to create any type of database or connection string information for this project.
